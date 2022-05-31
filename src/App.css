@@ -77,6 +77,7 @@ hr {
 .item-image-layout {
   display: grid;
   place-items: center;
+  grid-row-gap: 1em;
 }
 
 .item-image {
@@ -91,9 +92,25 @@ hr {
   border: 1px solid  var(--secondary-bg-color);
   border-radius: 10px;
   cursor: pointer;
+  width:12rem;
 }
 
 .delete-button:active{
   background-color: brown;
+  transform: translateY(4px);
+}
+
+.favorite-button {
+  background: rgb(50, 43, 122);
+  color: white;
+  padding: 1rem;
+  border: 1px solid  var(--secondary-bg-color);
+  border-radius: 10px;
+  cursor: pointer;
+  width:12rem;
+}
+
+.favorite-button:active{
+  background-color: rgb(37, 33, 81);
   transform: translateY(4px);
 }
