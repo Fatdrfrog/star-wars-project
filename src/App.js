@@ -149,7 +149,6 @@ export default function App() {
               src="https://starwars-visualguide.com/assets/img/characters/1.jpg"
               alt="asd"
             />
-            <button className="delete-button">Delete</button>
           </div>
         </div>
 
@@ -166,7 +165,6 @@ export default function App() {
               src="https://starwars-visualguide.com/assets/img/characters/2.jpg"
               alt="asd"
             />
-            <button className="delete-button">Delete</button>
           </div>
         </div>
       </div>
