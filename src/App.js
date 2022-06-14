@@ -125,6 +125,7 @@ export default function App() {
         <div className="search-layout">
           <IconSearchSVG className="search-icon" />
           <input placeholder="Search Star Wars" type="text" />
+          <div style={{ color: "white", paddingTop: "1rem" }}>I am fan of:</div>
         </div>
       </header>
       <hr />
@@ -142,7 +143,7 @@ export default function App() {
             <p>birthday: 33BBY</p>
           </div>
           <div className="item-image-layout">
-            <button className="favorite-button">You're my fan!</button>
+            <button className="favorite-button">I am your fan!!</button>
             <img
               className="item-image"
               src="https://starwars-visualguide.com/assets/img/characters/1.jpg"
